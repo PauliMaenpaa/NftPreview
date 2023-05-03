@@ -1,0 +1,93 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Soft-blue-divider: hsla(215, 52%, 70%, 0.15);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --Very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  background-color: var(--Very-dark-blue-main-bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 17rem;
+  padding: 1.5rem;
+  background-color: var(--Very-dark-blue-card-bg);
+  border-radius: 1rem;
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--White);
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--Soft-blue);
+}
+
+img {
+  border-radius: .5rem;
+}
+
+span {
+  color: var(--White);
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid ;
+  border-color: var(--Soft-blue-divider);
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.left-container > p {
+  color: var(--Cyan);
+  font-weight: 400;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.creator-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 1.7rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+
